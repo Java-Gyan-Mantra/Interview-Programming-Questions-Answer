@@ -1,0 +1,341 @@
+Interview Prospective Question and Answer using Java 7 and Java 8
+
+DWP SYSTEM TEST QUESTIONS:
+Create a list of 10 employees with name,id,sal as parameters. Sort the list depending on the employee's salary.
+Create a table in jsp page with name,age,date of birth,gender,martial status,phone number etc and show that details into another jsp by using servlet.
+Read the date from input.txt file and write the data into output.txt file but skip the fifth line.
+Select the data from data base Employee(id,name,sal) and write into results.txt file.
+Write a simple java class to calculate the age of a person where input is date of birth.
+DWP TECHNICAL ROUND-I QUESTIONS:
+1) Tell me about your academic education.
+2) What projects you have done?Explain.
+3) What is difference between delete and truncate.
+4) What is Collections framework.
+5) What is the difference between array list and linked list.
+6) How the flow is moving from jsp to servlet.
+7) What is servlet.
+DWP TECHNICAL ROUND-II QUESTIONS:
+Introduce about yourself.
+What projects you have done?Explain.
+What concepts you know is J2EE?
+What is the difference between Http Servlet and Generic Servlet.
+What is servlet life cycle.
+When the object will be destroyed
+What are struts.
+What is servlet scope.
+Spoors Technologys:
+1.write a pyramid program.
+2.write a program to read 5 characters from user and print the characters in reverse order.
+3.write a program if give the numbers the output will be generated in the following way 
+int number[]={80,45,65,80,45,45};
+output:
+80 2
+45 3
+65 1
+logic matters:
+system test qns:
+1.write a program to read the sentence from the user and if sentence is like(Roopa mam taught java very well vaman sir taught communications classes very well taught very very) then generate output in the following way
+output:
+taught 3
+very 4
+well 2
+2.write a program to arrange the string in sorting order
+if given string ranjith roopa vaman prashanth
+output:
+ranjith
+roopa
+prashanth
+vaman
+Technical:
+1.oops concept
+2.synchronization
+3.simple join Quary with example 
+4. Total collections 
+5.collectins& collection difference
+6.string reverse program
+7 servlets flow
+8.project Explanation
+9.implicit objects in jsp what is the use of each one
+Co Make It Technical qns:
+Technical:
+1. Tell About Your Self
+2. What U done So Far
+3. Explain About java project
+4.Explain about inheritance
+5.Explain polymorphism
+6.explain encapsulation
+7.Explain about Abstractiion
+8.Explain about Static?
+9.Explain about final?
+10.Where we can use final keyword and what are the limitations and advantages?
+11.Where we can use static key word and what are the limitations and advantages?
+12. method over loading 
+13.method overridding?
+14.what is difference between run time polymorphism and run time?
+15.what is difference between compile time polymorphism and compile time?
+16. what is servlet?
+17.what is jsp?
+18.what is difference between jsp and servlet?
+19.what are keywords?
+20.what are access specifiers?
+21.fibnocci series ?
+22.same program with using methods?
+23.increment and decrement?
+24.what is String?
+25 write a program to copy data from (Employ.txt) file and store in a Table (Employ) Stored in DB?
+26.Execute the about program in System?
+27.Explain Servlet Context?
+28.Explain Servlet Config?
+29.Explain About Struts?
+30.Explain about Flow of Struts?
+31.What is Mvc?
+Manager Round?
+1. Introduce U r self?
+2.Where U r from?
+3. What is JVM?
+4.What is JRE?
+5.What is JDK?
+6.What is Difference Between JRE JDK JVM?
+7.How u find that JAva Exist in System?
+8.How you find Version of java?
+9.what is difference between javac and java
+10.What is MVC?
+11.What is difference between web server and app server?
+12.what is database?
+13.Explain flow of servlets?
+14.will u get angry?
+15.what will u do if u got angry?
+16.company or family?
+17.what will u do if u r frnds use in their needs?
+18.how many hours will u do programs in day?
+19.where u will see u r self after 3 years?
+20.any questions that u need to ask me?
+Assignment:
+1 Design Application for Library Management System?
+Viranchi Technical Written Test Qns:
+1-->
+Class Base
+{
+public String final FOO = “foo”;
+}
+class Simple extends class Base
+{
+public string final FOO = “type”;
+}
+class A
+{
+public static void main(String ar[])
+{
+Base b = new Base();
+Simple s = new Simple();
+System.out.println(Base.FOO);
+System.out.println(b.FOO);
+System.out.println(Simple.FOO;
+System.out.println(s.FOO);
+System.out.println(((Base)s).FOO);
+}
+}
+2-->
+which is true?
+a) x extends y : x is a class; y is a interface
+b) x extends y : x is a Interface; y is a interface
+c) x extends y : x is a interface; y is a class
+d) x extends y : x is a class; y is a class
+3-->
+class Example
+{
+public static void main(String ar[])
+{
+Hashset hs = new HashSet();
+w1.hs.add(“WABH”);
+w2.hs.add(“WAXX”);
+String s1=new String(“WABH”);
+String s2=new String(“WAXX”);
+hs.add(s1);
+hs.add(s2);
+System.out.println(hs);
+4-->
+class ArrayLists
+{
+public static void main(String ar[])
+{
+ArrayList al = new ArrayList();
+al.add(“AAaA”);
+al.add(“AaAA”);
+al.add(“AaA”);
+al.add(“aAA”);
+al.sort();
+System.out.println(al);
+5-->
+class ArrayLists
+{
+public static void main(String ar[])
+{
+ArrayList al = new ArrayList();
+al.add(“1”);
+al.add(“5”);
+al.add(“3”);
+al.sort();
+al.add(“2”);
+al.reverse();
+System.out.println(al);
+6-->
+final abstract class A
+{
+public abstract show()
+{
+System.out.println(A1);
+System.out.println(A2);
+System.out.println(A3);
+}
+}
+class B extends class A
+{
+public abstract show()
+{
+System.out.println(B1);
+System.out.println(B2);
+System.out.println(B3);
+}
+}
+class Example
+{
+public static void main(String ar[])
+{
+A a=new B();
+a.show();
+}
+}
+7-->
+class A
+{
+public static A()
+{
+a[0]=10;
+}
+private static void main(String ar[])
+{
+A a = new A();
+a[0]=1;
+a[2]=2;
+System.out.println(a[0]);
+}
+8-->
+class A
+{
+private static A()
+{
+a[0]=10;
+}
+public static void main(String ar[])
+{
+A a = new A();
+a[0]=1;
+a[2]=2;
+System.out.println(a[0]);
+}
+9-->
+class Threads
+{
+public void show()
+{
+System.out.println(“running”);
+}
+public static void main(String ar[])
+{
+Thread t = new Thread(new Threads());
+t.show();
+t.show();
+t.start();
+}
+}
+10-->
+class A implements Runnable
+{
+public static display()
+try{
+System.out.println(“in try”);
+}
+catch(Exception e)
+{
+System.out.println(“In catch”);
+}
+finally()
+{
+System.out.println(“in final”);
+}
+public static void main(String ar[])
+{
+A a = new A();
+a.display();
+}
+11-->
+class Apply
+{
+int count;
+Apply()
+{
+count++;
+}
+public static void main(String ar[])
+{
+Apply a = new Apply();
+for(i=0;i<100;i++)
+{
+if(count==5)
+{
+}
+create a object
+}
+}
+12-->
+class A
+{
+public void show()
+{
+System.out.println(“in show method”);
+}
+public static void main(String ar[])
+{
+System.out.println(A.show());
+}
+13-->
+class Enum
+{
+ONE,TWO,THREE;
+}
+a)ONE==ONE and ONE.equals(ONE) are true
+b) ONE<TWO and ONE.compareTo(TWO) ahows ONE less than TWO are true
+c) Raise Exception
+d) –
+Viranchi Technical Interview Qns:
+// Technical Questions asked in second round //
+->Html
+->Tags
+->Uses of tags
+->Constructors
+->Extends
+->Class path
+->Jre
+->Jvm
+->uses of Jvm
+->Jdk
+->Explain Jdk
+->How to complile a java file
+->Compiler
+->Interpreter
+->Can we declare final for a class
+->Why..?
+->Collection Frame work
+->Arraylist
+->Duplicates possible in Arraylist
+->System.out.println()
+->Abstract class
+->Different types of methods
+->Impliments
+->Interfaces
+->Sorting techniques
+->Bubble sort
+->Sort an array
+->ArrayIndexOutofBound
+LikeShow more reactionsCommentShare
